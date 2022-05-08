@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.main{
+    width: 414px;
+    height: 896px;
+    background-color: blueviolet;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('./feliz_dia_das_maes_frases_f_o.png');
+}
+
+.title {
+    position: absolute;
+    top: -10%;
+    left: 25%;
+    width: 80%;
+    height: 4rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./Sem\ Título-1.png');
+
+    transition: top 5s;
+}
+
+.flor {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./flor1.png');
+
+    animation: rotate-center 8s linear infinite both;
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  .bida {
+    position: absolute;
+    top: 130%;
+    left: 10%;
+    width: 80%;
+    height: 80rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./bida-1.png');
+
+    transition: top 5s;
+  }
+
+ 
